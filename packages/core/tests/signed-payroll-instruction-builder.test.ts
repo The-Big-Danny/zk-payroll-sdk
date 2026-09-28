@@ -7,7 +7,7 @@ import {
   PayrollInstructionError,
   PayrollInstructionErrorCode,
   type PayrollInstructionSigner,
-} from "../src/instructions";
+} from "../src";
 
 const entry = (
   overrides: Partial<{ recipient: string; amount: bigint; asset: string }> = {}
